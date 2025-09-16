@@ -7,9 +7,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const usersFile = path.join(__dirname, 'database/users.json');
-const BOT_CLIENT_ID = process.env.BOT_CLIENT_ID;
-const BOT_CLIENT_SECRET = process.env.BOT_CLIENT_SECRET;
-const REDIRECT_URI = `https://${process.env.RENDER_EXTERNAL_HOSTNAME}/callback`; // Render يعطيك HOSTNAME
+const BOT_CLIENT_ID = '1417208420339027978'
+const BOT_CLIENT_SECRET = '-2oVtUCb-0mSEiwHFD07nB81bjU6WTSe'
+const REDIRECT_URI = 'https://primebotapi.vercel.app/callback';
 
 // قراءة وكتابة users.json
 function readUsers() {
