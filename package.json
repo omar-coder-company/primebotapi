@@ -6,7 +6,8 @@
     "start": "node index.ejs"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
   }
 }
